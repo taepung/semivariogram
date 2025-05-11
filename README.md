@@ -23,6 +23,7 @@
 ![image](https://github.com/user-attachments/assets/e976c9e5-9a76-427a-bef3-512131ef836c)
 
 사용자가 lag distance를 지정해주면 lag 개수는 자동으로 계산됩니다.
+
 3.  **`gamv2.py` (GSLIB `gamv.exe` 일괄 실행)**
     * **기능:** 현재 폴더 내의 모든 `.par` 파일을 찾아 `gamv.exe`로 순차 실행합니다.
     * **입력:** 현재 폴더 내 `.par` 파일들, `gamv.exe` (현재 폴더).
@@ -50,6 +51,7 @@
 ![image](https://github.com/user-attachments/assets/f13ba2dc-8365-405c-9f20-4b99f1a264af)
     
     선정된 대표 이론 모델을 수동으로 지정해주었습니다
+
 ## 4. 주요 설정
 
 각 스크립트 상단 또는 `if __name__ == "__main__":` 블록 내에 **파일 경로, 분석 변수명, GSLIB 파라미터, 모델 피팅 조건** 등 사용자가 환경에 맞게 수정해야 하는 주요 변수들이 정의되어 있습니다. 실행 전 반드시 확인 및 수정을 진행해 주십시오. (본 README는 모든 파일이 단일 폴더에 있음을 가정하므로, 대부분의 경로 설정은 현재 디렉토리(`.`)를 기본으로 합니다.)
